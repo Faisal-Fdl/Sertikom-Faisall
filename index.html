@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expro Travel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!-- Navbar Start -->
+     <nav>
+        <ul class="sidebar">
+            <li class="close-nav" onclick="hideSidebar()"><i class="fa-solid fa-xmark"></i></li>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentang-kami">Tentang Kami</a></li>
+            <li><a href="#destinasi">Destinasi</a></li>
+            <li><a href="#testi">Testimoni</a></li>
+            <li><a href="#paket">Paket</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+        <ul>
+            <li class="logo"><span class="expro" style="letter-spacing: -2px;">EXPRO</span> TRAVEL</li>
+            <li class="hideOnMobile"><a href="#beranda">Beranda</a></li>
+            <li class="hideOnMobile"><a href="#tentang-kami">Tentang</a></li>
+            <li class="hideOnMobile"><a href="#destinasi">Destinasi</a></li>
+            <li class="hideOnMobile"><a href="#testi">Testimoni</a></li>
+            <li class="hideOnMobile"><a href="#paket">Paket</a></li>
+            <li class="hideOnMobile"><a href="#contact">Kontak</a></li>
+            <li class="menu-nav" onclick="showSidebar()"><i class="fa-solid fa-bars"></i></li>
+        </ul>
+     </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+     <div class="hero" id="beranda">
+        <div class="overlay"></div>
+        <div class="teks-hero">
+            <div class="promosi">
+                <div class="icon-promosi"><i class="fa-solid fa-web-awesome"></i></div>
+                <p>Telah Termasuk Ke Dalam Top 1000 <i>Travel Agency</i></p>
+            </div>
+            <div class="headline">
+                <h1>Membawa Anda Menjelajahi Dunia dengan Cara yang Berbeda</h1>
+                <p>Expro Travel menawarkan perjalanan unik dengan destinasi menarik dan layanan profesional untuk pengalaman liburan yang tak terlupakan.</p>
+            </div>
+            <div class="cta">
+                <button id="tentang-kami" >Pesan Sekarang <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+        </div>
+
+     </div>
+    <!-- Hero End -->
+    <!-- Tentang Kami Start -->
+     <div class="tentang-kami" data-aos="fade-up" data-aos-duration="1000" >
+         <div class="teks-tentang-kami">
+            <div class="judul"> 
+                <h1>Tentang Kami</h1>
+            </div>
+            <p>Kami adalah ExproTravel, tim berpengalaman yang siap membantu Anda menjelajahi dunia dengan nyaman dan berkesan. Kami telah mendampingi ribuan traveler menemukan destinasi impian, mulai dari keajaiban alam hingga budaya yang mendalam. Setiap perjalanan dirancang khusus sesuai kebutuhan Anda, dengan perhatian penuh pada detail. Komitmen kami adalah memberikan layanan terbaik agar setiap momen perjalanan menjadi kenangan yang tak terlupakan.</p>
+         <div class="lebih-lanjut"><button id="destinasi">Read More</button></div>
+        </div>
+        <div class="foto-tentang-kami">
+            <!-- <img src="tentang-kami.jpg" alt="gada"> -->
+        </div>
+        
+     </div>
+    <!-- Tentang Kami End -->
+    <!-- Popular Destination Start -->
+     <div class="judul-dest">
+        <h1>Popular Destination</h1>
+        <p>Beberapa destinasi populer</p>
+     </div>
+     <div class="container-dest">
+        <div class="card-container">
+            <article class="card-article">
+                <img src="destination-1.jpg" alt="" class="card-img">
+
+                <div class="card-data">
+                    <span class="card-desk">Ontario, Canada</span>
+                    <h2 class="card-title">Niagara Fall</h2>
+                    <a href="" class="card-button">Read More</a>
+                </div>
+            </article>
+            <article class="card-article">
+                <img src="destination-5.jpg" alt="" class="card-img">
+
+                <div class="card-data">
+                    <span class="card-desk">Tabuk, Saudi Arabia</span>
+                    <h2 class="card-title">Hisma Desert</h2>
+                    <a href="" class="card-button" >Read More</a>
+                </div>
+            </article>
+            <article class="card-article">
+                <img src="destination-6.jpg" alt="" class="card-img">
+
+                <div class="card-data">
+                    <span class="card-desk">Shanghai, Tiongkok</span>
+                    <h2 class="card-title">The Bund</h2>
+                    <a href="" class="card-button">Read More</a>
+                </div>
+            </article>
+        </div>
+        <div class="card-container">
+            <article class="card-article">
+                <img src="destination-2.jpg" alt="" class="card-img">
+
+                <div class="card-data">
+                    <span class="card-desk">Braga, Bandung</span>
+                    <h2 class="card-title">Gedung Well</h2>
+                    <a href="" class="card-button2">Read More</a>
+                </div>
+            </article>
+            <article class="card-article">
+                <img src="destination-3.jpg" alt="" class="card-img">
+
+                <div class="card-data">
+                    <span class="card-desk">Sleman, Yogyakarta</span>
+                    <h2 class="card-title">Tebing Breksi</h2>
+                    <a href="" class="card-button2">Read More</a>
+                </div>
+            </article>
+            <article class="card-article">
+                <img src="destination-4.jpg" alt="" class="card-img">
+
+                <div class="card-data" id="testi" >
+                    <span class="card-desk">Jakarta, Indonesia</span>
+                    <h2 class="card-title">Pulau Seribu</h2>
+                    <a href="" class="card-button2"  >Read More</a>
+                </div>
+            </article>
+        </div>
+     </div>
+     
+     <br>
+    <!-- Popular Destination End -->
+    <!-- Testimonials Start -->
+
+    <div id="page" class="testi" data-aos="fade-up" data-aos-duration="1000">
+        <div class="cont-testi">
+            <div class="testi-2">
+                <div class="judul-testi">
+                    <h3>Testimonials</h3>
+                    <p>Lihat apa pengalaman orang..</p>
+                </div>
+                <div class="body swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="wrapper">
+                                <div class="thumbnail">
+                                    <img src="pp-1.jpg" alt="">
+                                </div>
+                                <div class="aside">
+                                    <p>"Layanan pelanggan Expro Travel sangat memuaskan. Tim mereka selalu cepat tanggap dan siap membantu di setiap tahap perjalanan saya, dari perencanaan hingga akhir. Sangat puas dengan pelayanan mereka!"?</p>
+                                    <div class="name">
+                                        <h4>Glenn Marcel</h4>
+                                        <p>Penganguran</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="wrapper">
+                                <div class="thumbnail">
+                                    <img src="pp-2.jpg" alt="">
+                                </div>
+                                <div class="aside">
+                                    <p>"Saya baru saja mengikuti tur Bali dengan Expro Travel dan sangat terkesan. Paket wisata yang ditawarkan sangat terorganisir dengan baik, dan pemandu wisata mereka sangat berpengetahuan serta ramah. Pengalaman yang luar biasa!"?</p>
+                                    <div class="name">
+                                        <h4>Faiz Nabil Akram</h4>
+                                        <p>Penjual Kebab</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="wrapper">
+                                <div class="thumbnail">
+                                    <img src="pp-3.jpg" alt="">
+                                </div>
+                                <div class="aside">
+                                    <p>"Harga dari Expro Travel sangat bersaing dibandingkan dengan agen lain. Mereka menawarkan paket dengan harga yang sangat sesuai dengan kualitas layanan yang diberikan. Tidak ada biaya tersembunyi, semuanya transparan."</p>
+                                    <div class="name">
+                                        <h4>Dede Inoen</h4>
+                                        <p>Traveler</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="wrapper">
+                                <div class="thumbnail">
+                                    <img src="pp-4.jpg" alt="">
+                                </div>
+                                <div class="aside">
+                                    <p>"Mengikuti tur grup bersama Expro Travel benar-benar menyenangkan. Tempat-tempat yang dikunjungi sangat menarik, dan saya juga bisa bertemu dengan banyak orang baru. Semua jadwal perjalanan berjalan lancar dan sangat terorganisir."</p>
+                                    <div class="name">
+                                        <h4>Michelle Alexandra</h4>
+                                        <p>Member JKT48</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="wrapper">
+                                <div class="thumbnail">
+                                    <img src="pp-5.jpg" alt="">
+                                </div>
+                                <div class="aside">
+                                    <p>"Proses pemesanan dengan Expro Travel sangat mudah dan cepat. Mereka mengurus semua detail perjalanan, mulai dari tiket pesawat hingga akomodasi, dan semuanya berjalan sesuai rencana tanpa hambatan. Sangat efisien!"</p>
+                                    <div class="name">
+                                        <h4>Airree Sattar</h4>
+                                        <p>Programmer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="wrapper">
+                                <div class="thumbnail">
+                                    <img src="pp-6.jpg" alt="">
+                                </div>
+                                <div class="aside">
+                                    <p>"Perjalanan saya bersama Expro Travel benar-benar memuaskan. Semua tempat yang dikunjungi sangat menarik, penginapan nyaman, dan tim mereka sangat profesional. Saya merasa sangat diperhatikan sepanjang perjalanan."</p>
+                                    <div class="name">
+                                        <h4>Orang</h4>
+                                        <p>Laper</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonials End -->
+    <!-- Paket Wisata Start -->
+    <div class="judul-paket">
+        <h1 id="paket">Paket Wisata</h1>
+        <p>Beragam pilihan paket wisata</p>
+    </div>
+    <div class="paket">
+        <div class="card-paket">
+            <div class="foto-paket-1"></div>
+            <div class="nama-paket">
+                <h1>Paket Ekonomis</h1>
+            </div>
+            <div class="harga"><p>2 Jt</p></div>
+            <div class="keterangan">
+                <div class="fasilitas">
+                    <ul>
+                        <li><p><i class="fa-solid fa-check"></i>Penginapan</p></li>
+                        <li><p><i class="fa-solid fa-check"></i>Tiket Masuk</p></li>
+                        <li><p><i class="fa-solid fa-check"></i>Transportasi Lokal</p></li>
+                        <li><p><i class="fa-solid fa-check"></i>Pemandu Umum</p></li>
+                    </ul>
+                </div>
+                <div class="samping">
+                    <div class="waktu">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>3 Hari</p>
+                    </div>
+                    <button>Pesan <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="card-paket">
+            <div class="foto-paket-2"></div>
+            <div class="nama-paket">
+                <h1>Paket Standar</h1>
+            </div>
+            <div class="harga"><p>5 Jt</p></div>
+            <div class="keterangan">
+                <div class="fasilitas">
+                    <ul>
+                        <li><p><i class="fa-solid fa-check"></i>Penginapan Nyaman</p></li>
+                        <li><p><i class="fa-solid fa-check"></i>Tiket Lengkap</p></li>
+                        <li><p><i class="fa-solid fa-check"></i>Transportasi Nyaman</p></li>
+                        <li><p><i class="fa-solid fa-check"></i>Pemandu Lisensi</p></li>
+                    </ul>
+                </div>
+                <div class="samping">
+                    <div class="waktu">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>6 Hari</p>
+                    </div>
+                    <button>Pesan <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="card-paket">
+            <div class="foto-paket-3"></div>
+            <div class="nama-paket">
+                <h1>Paket Premium</h1>
+            </div>
+            <div class="harga"><p>13 Jt</p></div>
+            <div class="keterangan">
+                <div class="fasilitas">
+                    <ul>
+                        <li><p><i class="fa-solid fa-check"></i>Penginapan Luxury</p></li>
+                        <li><p><i class="fa-solid fa-check"></i>Tiket VIP</p></li>
+                        <li><p><i class="fa-solid fa-check"></i>Transportasi Ekslusif</p></li>
+                        <li><p><i class="fa-solid fa-check"></i>Pemandu Pribadi</p></li>
+                    </ul>
+                </div>
+                <div class="samping">
+                    <div class="waktu">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>9 Hari</p>
+                    </div>
+                    <button id="contact">Pesan <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Paket Wisata End -->
+    <!-- Contact Start -->
+     <div class="judul-contact" id="contact">
+        <h1>Kontak Kami</h1>
+        <p>Hubungi kami lebih lanjut</p>
+     </div>
+    <div class="cont-contact">
+        <div class="foorm">
+            <div class="form">
+                <input type="text" required>
+                <div class="labelline">Nama</div>
+            </div>
+            <div class="form">
+                <input type="text" required>
+                <div class="labelline">Email</div>
+            </div>
+            <div class="form">
+                <input  id="pesan" type="text" required>
+                <div class="labelline">Pesan</div>
+            </div>
+            <button>Kirim</button>
+        </div>
+        
+        <div class="info">
+            <div class="telepon">
+                <i class="fa-solid fa-phone"></i>
+                <div class="isi-kontak">
+                    <span>No. Telepon</span>
+                    <p>+62 877 1117 7442</p>
+                </div>
+            </div>
+            <div class="alamat">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="isi-kontak">
+                    <span>Alamat</span>
+                    <p> Jl, Poras No,7 Sindang Barang Loji, Bogor</p>
+                </div>
+            </div>
+            <div class="email">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="isi-kontak">
+                    <span>Email</span>
+                    <p>muhamadfaisal.xpro@gmail.com</p>
+                    <p>smkit.pesat@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact End -->
+    <!-- Footer Start -->
+
+     <footer>
+        <div class="row">
+            <div class="col">
+                <div class="logo"><span class="expro" style="letter-spacing: -2px;">EXPRO</span> TRAVEL</div>
+                <p>Temukan petualanganmu bersama kami. Jelajahi dunia dengan kenyamanan dan harga terbaik.</p>
+            </div>
+            <div class="col">
+                <h3>Office <div class="underline"><span></span></div></h3>
+                <p>Jalan Poras</p>
+                <p>Sindang Barang, Loji</p>
+                <p>Bogor Barat, Indonesia</p>
+                <p class="email-id">smkit.pesat@gmail.com</p>
+                <h4>+62 877 1117 7442</h4>
+            </div>
+            <div class="col">
+                <h3>Links <div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="">Beranda</a></li>
+                    <li><a href="">Tentang</a></li>
+                    <li><a href="">Destination</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">Paket</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter <div class="underline"><span></span></div></h3>
+                <form>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email id" required>
+                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright Muhamad Faisal@ 2024 - Expro Travel</p>
+     </footer>
+
+    <!-- Footer End -->
+
+    <script>
+        AOS.init();
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
